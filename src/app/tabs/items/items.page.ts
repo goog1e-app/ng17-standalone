@@ -12,10 +12,10 @@ import {IonicModule} from "@ionic/angular";
 		IonicModule
 	],
 	standalone: true,
-	styleUrls: ['./map.page.scss'],
-	templateUrl: './map.page.html',
+	styleUrls: ['./items.page.scss'],
+	templateUrl: './items.page.html'
 })
-export class MapPage implements OnInit {
+export class ItemsPage implements OnInit {
 
 	// params!: Params;
 

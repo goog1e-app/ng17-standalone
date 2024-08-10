@@ -3,7 +3,7 @@ import {RouterOutlet} from '@angular/router';
 
 import {IonicModule} from "@ionic/angular";
 import {addIcons} from 'ionicons';
-import {map, settings} from 'ionicons/icons';
+import {map, pricetags, settings} from 'ionicons/icons';
 
 @Component({
 	imports: [
@@ -22,6 +22,7 @@ export class AppComponent {
 	constructor() {
 		addIcons({
 			map,
+			pricetags,
 			settings
 		});
 	}

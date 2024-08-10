@@ -3,30 +3,26 @@ import {Component, OnInit} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 
-import {IonContent, IonHeader, IonTitle, IonToolbar} from '@ionic/angular/standalone';
+import {IonicModule} from "@ionic/angular";
 
 @Component({
 	imports: [
 		CommonModule,
 		FormsModule,
-		IonContent,
-		IonHeader,
-		IonTitle,
-		IonToolbar
+		IonicModule
 	],
-	selector: 'app-settings',
 	standalone: true,
 	styleUrls: ['./settings.page.scss'],
 	templateUrl: './settings.page.html'
 })
 export class SettingsPage implements OnInit {
 
-	params!: Params;
+	// params!: Params;
 
 	constructor(private route: ActivatedRoute) {
 	}
 
 	ngOnInit() {
-		this.params = this.route.snapshot.params;
+		// this.params = this.route.snapshot.params;
 	}
 }

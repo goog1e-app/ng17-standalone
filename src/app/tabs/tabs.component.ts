@@ -1,23 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-import {IonicModule} from "@ionic/angular";
+import {Component, OnInit} from '@angular/core';
 import {RouterLink} from "@angular/router";
+
+import {IonicModule} from "@ionic/angular";
 import {settings} from "ionicons/icons";
 
 @Component({
-	selector: 'app-tabs',
-	templateUrl: './tabs.component.html',
-	styleUrls: ['./tabs.component.scss'],
-	standalone: true,
 	imports: [
 		IonicModule,
 		RouterLink
-	]
+	],
+	standalone: true,
+	styleUrls: ['./tabs.component.scss'],
+	templateUrl: './tabs.component.html'
 })
-export class TabsComponent  implements OnInit {
+export class TabsComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {}
-
-	protected readonly settings = settings;
+	ngOnInit() {
+	}
 }
