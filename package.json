@@ -1,6 +1,6 @@
 {
-	"name": "ng17-standalone",
-	"version": "2024.08.10",
+	"name": "臺鐵大亨",
+	"version": "2024.08.11",
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve --disable-host-check",

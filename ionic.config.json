@@ -1,6 +1,5 @@
 {
-	"name": "ionic-app",
-	"app_id": "",
-	"type": "angular-standalone",
-	"integrations": {}
+	"name": "臺鐵大富翁",
+	"integrations": {},
+	"type": "angular-standalone"
 }

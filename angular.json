@@ -103,11 +103,12 @@
 									"maximumError": "16kb"
 								}
 							],
+							"optimization": true,
 							"outputHashing": "all"
 						},
 						"development": {
-							"optimization": false,
 							"extractLicenses": false,
+							"optimization": false,
 							"sourceMap": true
 						}
 					},
