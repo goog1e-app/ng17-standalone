@@ -2,8 +2,6 @@
 
 ## 生成的讀我
 
-此項目是使用 [Angular CLI](https://github.com/angular/angular-cli) 版本 17.3.8 產生的。
-
 ```shell
 ngvm new ng17-standalone \
 --routing=true \
@@ -13,6 +11,8 @@ ngvm new ng17-standalone \
 --style=scss \
 -ng 17
 ```
+
+此項目是使用 [Angular CLI](https://github.com/angular/angular-cli) 版本 17.3.8 產生的。
 
 ### 開發伺服器
 
@@ -33,3 +33,12 @@ ngvm new ng17-standalone \
 ### 更多說明
 
 運行 `ng help` 獲取有關 Angular CLI 的更多說明，或查看 [Angular CLI Overview and Command Reference](https://angular.io/cli)。
+
+## 添加 Ionic Framework 8
+
+```shell
+npm install @ionic/angular@latest @ionic/angular-toolkit@latest && ng add @ionic/angular @ionic/angular-toolkit
+```
+
+- Ionic Angular Core 版本 8.2.6
+- Ionic Angular Toolkit 版本 11.0.1
