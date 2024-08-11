@@ -17,8 +17,6 @@ import {map, pricetags, settings} from 'ionicons/icons';
 })
 export class AppComponent {
 
-	title = '臺鐵大富翁';
-
 	constructor() {
 		addIcons({
 			map,
